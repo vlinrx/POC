@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_nrx_poc_domain_Attribute" items="${attributes}" z="xsKIjWiOxqllfmxods4h8g2rfFU=">
+        <table:table data="${attributes}" id="l_com_nrx_poc_domain_Attribute" path="/attributes" z="I7MfhTKEPq6ZfaFiYYCr8JXGXoo=">
+            <table:column id="c_com_nrx_poc_domain_Attribute_name" property="name" z="LoqjWRsDaCQ1xed3wVTQaf1rBKQ="/>
+        </table:table>
+    </page:list>
+</div>

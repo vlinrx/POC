@@ -1,0 +1,27 @@
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-12-12 10:03:13
+project --topLevelPackage com.nrx.poc --projectName POC --java 7 --packaging JAR
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log closed at 2013-12-12 10:03:26
+// Spring Roo 1.2.4.RELEASE [rev 75337cf] log opened at 2013-12-12 10:10:13
+mongo setup
+entity mongo --class ~.domain.Location --testAutomatically
+field string --fieldName erpCode --notNull --unique --sizeMin 2 
+field string --fieldName name --sizeMax 256
+field string --fieldName tag
+field number --fieldName serialNumber --type java.lang.Integer
+field string --fieldName plant --notNull
+entity mongo --class ~.domain.Attribute --testAutomatically 
+field string --fieldName name --notNull --unique
+entity mongo --class ~.domain.AttributeValue --testAutomatically 
+field string  --fieldName attValue --notNull 
+field reference --fieldName attribute --notNull --type ~domain.Attribute
+focus --class ~.domain.Location 
+field set --fieldName attributeValues --type ~.domain.AttributeValue
+repository mongo --interface ~.repository.LocationRepository --entity ~.domain.Location
+repository mongo --interface ~.repository.AttributeRepository --entity ~.domain.Attribute
+repository mongo --interface ~.repository.AttributeValueRepository --entity ~.domain.AttributeValue
+web mvc setup
+web mvc all --package ~.web
+json all 
+security setup
+web mvc json all --package ~web
+web mvc all --package ~.web

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_nrx_poc_domain_AttributeValue" object="${attributevalue}" path="/attributevalues" z="NgfvZHK95bjtCADMVm7SN8y5SEE=">
+        <field:display field="attValue" id="s_com_nrx_poc_domain_AttributeValue_attValue" object="${attributevalue}" z="SKd7S1HPBA3nFFQ07b3cIYXCpKI="/>
+        <field:display field="attribute" id="s_com_nrx_poc_domain_AttributeValue_attribute" object="${attributevalue}" z="4Hv0VgQs50ebdiaBi/ezMr5F6Fg="/>
+    </page:show>
+</div>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_attributevalue" z="rZcc/Y8KOHqEzkoG95pAjtSvgP4=">
+            <menu:item id="i_attributevalue_new" messageCode="global_menu_new" url="/attributevalues?form" z="25NqVu572aXUsqxNhdytxDvg0ic="/>
+            <menu:item id="i_attributevalue_list" messageCode="global_menu_list" url="/attributevalues?page=1&amp;size=${empty param.size ? 10 : param.size}" z="YiUqrU06DvN4WfQ22SxLwIY6ak4="/>
+        </menu:category>
+        <menu:category id="c_location" z="RvMgx8apsPylYygCQ4tMBVfulVw=">
+            <menu:item id="i_location_new" messageCode="global_menu_new" url="/locations?form" z="sW8KSnwNnd9wjssI0lLV1kzOguk="/>
+            <menu:item id="i_location_list" messageCode="global_menu_list" url="/locations?page=1&amp;size=${empty param.size ? 10 : param.size}" z="VdKLEljpeTLil2W6A3GdWmSBzXI="/>
+        </menu:category>
+        <menu:category id="c_attribute" z="g7NCMKPLsKNhzEFdDVPp3H4tpMY=">
+            <menu:item id="i_attribute_new" messageCode="global_menu_new" url="/attributes?form" z="066+BnW7znTYFWafvBVsH07Xc0I="/>
+            <menu:item id="i_attribute_list" messageCode="global_menu_list" url="/attributes?page=1&amp;size=${empty param.size ? 10 : param.size}" z="4wv7iOGZ7YmzOheEDQ0XhS6Wa9I="/>
+        </menu:category>
+    </menu:menu>
+</div>

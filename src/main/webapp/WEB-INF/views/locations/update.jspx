@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_com_nrx_poc_domain_Location" modelAttribute="location" path="/locations" versionField="none" z="8eGze8dVprMeYyJGmEWTxvArqhE=">
+        <field:input field="erpCode" id="c_com_nrx_poc_domain_Location_erpCode" min="2" required="true" z="gEzVP7wC8bpVkyGficlaSTL5aC8="/>
+        <field:textarea field="name" id="c_com_nrx_poc_domain_Location_name" z="1LLHF5WPOQbLMwrOQAJLNyVfO8U="/>
+        <field:input field="tag" id="c_com_nrx_poc_domain_Location_tag" z="HuMNkESjNpjfUSOwvYm82QwTxgM="/>
+        <field:input field="serialNumber" id="c_com_nrx_poc_domain_Location_serialNumber" validationMessageCode="field_invalid_integer" z="RRjLkkRqOeXn4ne2/lF8UYe9IYg="/>
+        <field:input field="plant" id="c_com_nrx_poc_domain_Location_plant" required="true" z="g7eipz5I7oKxiQA7Fug3WRDHsiw="/>
+        <field:select field="attributeValues" id="c_com_nrx_poc_domain_Location_attributeValues" itemValue="id" items="${attributevalues}" multiple="true" path="/attributevalues" z="g+ht9cmO2dOnnqiNP0YvWVQdjqw="/>
+    </form:update>
+</div>

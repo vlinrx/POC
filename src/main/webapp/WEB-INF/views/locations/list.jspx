@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_nrx_poc_domain_Location" items="${locations}" z="eqbVHZM5lbeIbEXGYcyZk3Pw0b0=">
+        <table:table data="${locations}" id="l_com_nrx_poc_domain_Location" path="/locations" z="ROCNCWj3B7I3v+nnBdYfEcLtCg4=">
+            <table:column id="c_com_nrx_poc_domain_Location_erpCode" property="erpCode" z="TlyNmozp6zlJo3r/Dt/JIBp8EQA="/>
+            <table:column id="c_com_nrx_poc_domain_Location_name" property="name" z="cW6Lv7IJaLPJQr42uJGzawoJStY="/>
+            <table:column id="c_com_nrx_poc_domain_Location_tag" property="tag" z="luU11f79YkGnJNKZK5WUAHt9sJA="/>
+            <table:column id="c_com_nrx_poc_domain_Location_serialNumber" property="serialNumber" z="zJyIQU17xq29imfi/z5H8L787+0="/>
+            <table:column id="c_com_nrx_poc_domain_Location_plant" property="plant" z="/qGhJr5CNxmsXN6w2aeIO63Nsao="/>
+            <table:column id="c_com_nrx_poc_domain_Location_attributeValues" property="attributeValues" z="eV6r+ye21YeTZKgUJCeUg2mqOJA="/>
+        </table:table>
+    </page:list>
+</div>

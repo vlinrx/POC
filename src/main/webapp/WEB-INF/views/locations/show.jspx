@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_nrx_poc_domain_Location" object="${location}" path="/locations" z="Z/nh6/NUXZQaVAuESVEuyjNM7S8=">
+        <field:display field="erpCode" id="s_com_nrx_poc_domain_Location_erpCode" object="${location}" z="zCRkqWtEG9gFzPozY7DHXS5LL+g="/>
+        <field:display field="name" id="s_com_nrx_poc_domain_Location_name" object="${location}" z="DrLyAd9q42iw6qovACI0EDaGOvc="/>
+        <field:display field="tag" id="s_com_nrx_poc_domain_Location_tag" object="${location}" z="UKGIt4D1kI4OjGrozTQI1TKLuFM="/>
+        <field:display field="serialNumber" id="s_com_nrx_poc_domain_Location_serialNumber" object="${location}" z="/HtccoGZP2lZGAlUmrEbFc4UWtQ="/>
+        <field:display field="plant" id="s_com_nrx_poc_domain_Location_plant" object="${location}" z="UZ4LAWF3+tm6XSaZUWQTcO3NcGw="/>
+        <field:display field="attributeValues" id="s_com_nrx_poc_domain_Location_attributeValues" object="${location}" z="lo//WHVK2tqqhn6I5Ys5ARoAqTk="/>
+    </page:show>
+</div>
